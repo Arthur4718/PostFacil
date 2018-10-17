@@ -76,14 +76,10 @@ public class MainActivity extends AppCompatActivity {
         openGalleryButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(isLoggedIn){
-                    Intent gallery = new Intent(getApplicationContext(), ProductsActivity.class);
-                    startActivity(gallery);
-                    finish();
-                }
-                else{
-                    Toast.makeText(getApplicationContext(), "Por favor efetue login", Toast.LENGTH_SHORT).show();
-                }
+                
+                Intent gallery = new Intent(getApplicationContext(), ProductsActivity.class);
+                startActivity(gallery);
+                finish();
 
 
             }
