@@ -40,7 +40,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Gallery.ProductsActivity"
+            android:name=".activities.ProductsActivity"
             android:label="@string/title_activity_products"
             android:theme="@style/AppTheme"></activity>
     </application>
