@@ -3,24 +3,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_view">
 
-    <item android:title="Masculino">
+    <item android:title="MASCULINO">
         <menu>
             <item
                 android:id="@+id/nav_masculino"
-                android:icon="@drawable/ic_arrow_forward_black_24dp"
-                android:title="Banners" />
+
+                android:title="BANNERS" />
             <item
                 android:id="@+id/nav_feminino"
-                android:title="Videos" />
+                android:title="VIDEOS" />
             <item
                 android:id="@+id/nav_banners"
-                android:title="Calçados" />
+                android:title="CALÇADOS" />
             <item
                 android:id="@+id/nav_calcados"
-                android:title="Roupas" />
+                android:title="ROUPAS" />
             <item
                 android:id="@+id/nav_acessorios"
-                android:title="Acessórios" />
+                android:title="ACESSÓRIOS" />
         </menu>
     </item>
 
