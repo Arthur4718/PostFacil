@@ -40,8 +40,8 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Gallery.GalleryActivity"
-            android:label="@string/title_activity_gallery"
+            android:name=".Gallery.ProductsActivity"
+            android:label="@string/title_activity_products"
             android:theme="@style/AppTheme"></activity>
     </application>
 
