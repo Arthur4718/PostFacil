@@ -17,7 +17,7 @@ import com.facebook.login.widget.LoginButton;
 
 import java.util.Arrays;
 
-import devarthur.post.post.activities.ProductsActivity;
+import devarthur.post.post.activities.ProductList;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -75,7 +75,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 
-                Intent gallery = new Intent(getApplicationContext(), ProductsActivity.class);
+                Intent gallery = new Intent(getApplicationContext(), ProductList.class);
                 startActivity(gallery);
                 finish();
 

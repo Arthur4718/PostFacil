@@ -14,7 +14,7 @@ import android.view.MenuItem;
 import devarthur.post.post.MainActivity;
 import devarthur.post.post.R;
 
-public class ProductsActivity extends AppCompatActivity
+public class ProductList extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     @Override
@@ -76,20 +76,11 @@ public class ProductsActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        /*
-        if (id == R.id.nav_camera) {
-            // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
 
-        } else if (id == R.id.nav_slideshow) {
-
-        } else if (id == R.id.nav_manage) {
-
-        } else if (id == R.id.nav_share) {
-
-        } else if (id == R.id.nav_send) {
-
-        } */
+        if (id == R.id.nav_banners) {
+           Intent productDetail = new Intent(getApplicationContext(), ProductDetail.class);
+           startActivity(productDetail);
+        }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);

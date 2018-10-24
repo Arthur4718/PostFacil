@@ -6,17 +6,17 @@
     <item android:title="MASCULINO">
         <menu>
             <item
-                android:id="@+id/nav_masculino"
+                android:id="@+id/nav_banners"
 
                 android:title="BANNERS" />
             <item
                 android:id="@+id/nav_feminino"
                 android:title="VIDEOS" />
             <item
-                android:id="@+id/nav_banners"
+                android:id="@+id/nav_calcados"
                 android:title="CALÇADOS" />
             <item
-                android:id="@+id/nav_calcados"
+                android:id="@+id/nav_roupas"
                 android:title="ROUPAS" />
             <item
                 android:id="@+id/nav_acessorios"

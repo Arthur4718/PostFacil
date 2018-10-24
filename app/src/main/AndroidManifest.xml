@@ -40,9 +40,10 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".activities.ProductsActivity"
+            android:name=".activities.ProductList"
             android:label="@string/title_activity_products"
-            android:theme="@style/AppTheme"></activity>
+            android:theme="@style/AppTheme" />
+        <activity android:name=".activities.ProductDetail"></activity>
     </application>
 
 </manifest>
